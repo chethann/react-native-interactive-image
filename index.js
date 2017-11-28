@@ -85,7 +85,6 @@ class ZoomableImage extends Component {
 
 	initValues ({ value }) {
 		this.scale = value
-		console.log(value)
 		let offsetX = (this.props.imageWidth / 2 - this.locationX ) * this.scale
 		let offsetY = (this.props.imageHeight / 2 - this.locationY ) * this.scale
 		const maxOffsetY = this.props.imageHeight * (this.scale -1) / 2
@@ -305,7 +304,6 @@ class ZoomableImage extends Component {
 			{ scale: this.state.scale },
 
 		] }
-		console.log('scale ', this.state.scale)
 		return (
 			<View style={ { maxHeight: this.props.imageHeight, width: this.props.imageWidth, backgroundColor: 'pink' }} >
 			{this.popupContainer()}
