@@ -1,0 +1,15 @@
+{
+  "name": "react-native-interactive-image",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "react-native",
+    "images",
+    "react-native-interactive-image",
+    "react-native-image"
+  ],
+  "author": "chethann12793@gmail.com",
+  "license": "MIT"
+}
