@@ -1,7 +1,7 @@
 # react-native-interactive-image
 
 An interactive image component for React Native. 
-Acceps a lits of annotations with normalized x and y positions and displayes annotated interactive image. 
+Accepts a lits of annotations with normalized x and y positions and displayes annotated interactive image. 
 
 # Demo
 ![react-native-interactive-image Demo](https://github.com/chethann/demo-images/blob/master/demo-interactive-image.gif)
@@ -60,8 +60,3 @@ const annotations = [
 License
 ----
 MIT
-
-
-
-
-
